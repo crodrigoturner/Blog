@@ -1,0 +1,20 @@
+{% include head.html %}
+{% include header.html %}
+
+<section>
+<article>
+
+
+<h2>{{page.title}}</h2>
+
+{{content}}
+</article>
+
+
+{%if note.category contains "post" %}
+{% include comments.html %}
+{% endif %}
+
+
+</section>
+{% include footer.html %}

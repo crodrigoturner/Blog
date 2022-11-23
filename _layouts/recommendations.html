@@ -1,0 +1,242 @@
+{% include head.html %}
+{% include header.html %}
+
+<section>
+<article>
+<h2>{{page.title}}</h2> 
+<p><input type="text" class="quicksearch" placeholder="Buscar" /></p>
+
+<div id="filters" class="button-group">
+    <button class="button is-checked" data-filter="*">todo</button>
+<button class="button" data-filter=".podcast">podcast</button>
+<button class="button" data-filter=".pelicula">película</button>
+<button class="button" data-filter=".audiolibro">audiolibro</button>
+<button class="button" data-filter=".libro">libro</button>
+<button class="button" data-filter=".documental">documental</button>
+</div>
+
+<div class="grid">
+    <ul >
+<li class="element-item libro">Adam Smith - Teoría de los sentimientos morales</li>
+<li class="element-item libro">Adam Smith - Wealth of Nations</li>
+<li class="element-item audiolibro">Andy Weir - Artemis</li>
+<li class="element-item audiolibro">Andy Weir - The Martian</li>
+<li class="element-item libro">Aristotle - Politics: A Treatise on Government</li>
+<li class="element-item libro">Arthur L. Herman - How the Scots invented the modern world</li>
+<li class="element-item libro">Aubrey Manning - An Introduction to Animal Behaviour</li>
+<li class="element-item libro">Benjamin Franklin - Autobiography of Benjamin Franklin</li>
+<li class="element-item libro">Benjamin Graham - The Intelligent Investor</li>
+<li class="element-item libro">Bill Risebero - Historia de la arquitectura</li>
+<li class="element-item libro">Brian McCullough - How the Internet Happened: From Netscape to the iPhone</li>
+<li class="element-item libro">Carl Sagan - Cosmos</li>
+<li class="element-item libro">Carlo Rovelli - Seven Brief Lessons on Physics</li>
+<li class="element-item libro">Charles Darwin - On the origin of Species</li>
+<li class="element-item libro">Charles Dickens - A christmas carol</li>
+<li class="element-item libro">Charlie Munger - Poor Charlie"s Almanack</li>
+<li class="element-item libro">Clive Thompson - Coders: The Making of a New Tribe and the Remaking of the World</li>
+<li class="element-item audiolibro">Cory Doctorow - Homeland</li>
+<li class="element-item audiolibro">Cory Doctorow - Little brother</li>
+<li class="element-item libro">Darren Hardy - The Compound Effect</li>
+<li class="element-item libro">David Christian - Origin big history</li>
+<li class="element-item libro">David Hume - A Treatise of Human Nature</li>
+<li class="element-item libro">David Hume - An Enquiry Concerning Human Understanding</li>
+<li class="element-item libro">David J C MacKay - Sustainable energy without the hot air</li>
+<li class="element-item libro">Dennis C. Rasmussen - The Infidel and the Professor: David Hume, Adam Smith</li>
+<li class="element-item libro">Don Norman - The Design of Everyday Things</li>
+<li class="element-item libro">Epictetus - The Manual (Enchiridion)</li>
+<li class="element-item libro">Epicurio - Maximas Capitales</li>
+<li class="element-item libro">Ernest Cline - Armada</li>
+<li class="element-item libro">Ernest Cline - Ready Player One</li>
+<li class="element-item libro">Fernando Trias de Bes - El hombre que cambió su casa por un tulipán</li>
+<li class="element-item libro">Gary Smailes - Scottish Inventors</li>
+<li class="element-item libro">George Horace Lorimer - Letters from a Self-Made Merchant to His Son</li>
+<li class="element-item libro">George Samuel Clason - The Richest Man in Babylon</li>
+<li class="element-item libro">Gretchen Rubin - Forty Ways to Look at Winston Churchill</li>
+<li class="element-item libro">Hans Rosling - Factfulness</li>
+<li class="element-item libro">Isaac Asimov - Foundation</li>
+<li class="element-item libro">James Gleick - Isaac Newton</li>
+<li class="element-item libro">Janet Lowe - Value Investing Made Easy</li>
+<li class="element-item libro">Janine Benyus - Biomimicry</li>
+<li class="element-item libro">JD Salinger - The Catcher in the Rye</li>
+<li class="element-item libro">John Bartlett - Familiar Quotations (Illustrated)</li>
+<li class="element-item libro">John Brooks - Business Adventures: Twelve Classic Tales from the World of Wall Street</li>
+<li class="element-item libro">Jordan B Peterson - 12 Rules for Life</li>
+<li class="element-item audiolibro">Ken Follet - A column of fire (Kingsbridge 3)</li>
+<li class="element-item audiolibro">Ken Follet - The Pillars of the earth (Kingsbridge 1)</li>
+<li class="element-item audiolibro">Ken Follet - World Without End (Kingsbridge 2)</li>
+<li class="element-item libro">Malcolm Gladwell - Outliers: The Story of Success</li>
+<li class="element-item libro">Maquiavelo - The Prince</li>
+<li class="element-item libro">Marco Aurelio - Meditations</li>
+<li class="element-item libro">Massimo Pigliucci - How to be a stoic</li>
+<li class="element-item libro">Michio Kaku - The Future of Humanity</li>
+<li class="element-item libro">Montaigne - How to Live: Or a Life of Montaigne</li>
+<li class="element-item libro">Montaigne - The essays Montaigne</li>
+<li class="element-item libro">Napoleon Hill - Think and grow Rich</li>
+<li class="element-item libro">Neil Degrasse Tyson - Astrophysics for people in a hurry</li>
+<li class="element-item libro">Neil deGrasse Tyson - Origins</li>
+<li class="element-item libro">Neil Stephenson - Snow crash</li>
+<li class="element-item libro">Niall Ferguson - Ascent of Money</li>
+<li class="element-item libro">Nick Bostrom - Superintelligence</li>
+<li class="element-item libro">O"Reilly - Big Data Now: 2012 Edition</li>
+<li class="element-item libro">Ouida Newton - Everything You Need to Ace Math in One Big Fat Notebook</li>
+<li class="element-item libro">Peter Diamandis - Abundance the Future is Better Than You Think</li>
+<li class="element-item libro">Philip Arthur Fisher - Common Stocks and Uncommon Profits</li>
+<li class="element-item libro">Plutarch - Plutarch: Lives of the noble Grecians and Romans</li>
+<li class="element-item libro">Publius Syrus - The Moral Sayings of Publius Syrus</li>
+<li class="element-item libro">Rachel Botsman - Who can you trust</li>
+<li class="element-item libro">Ralph Waldo Emerson - The Essential Writings of Ralph Waldo Emerson</li>
+<li class="element-item libro">Ray Dalio - Principles</li>
+<li class="element-item libro">Ray Kurzweil - law accelerating returns</li>
+<li class="element-item libro">Ray Kurzweil - Singularity</li>
+<li class="element-item libro">Richard Dawkins - The Blind Watchmaker</li>
+<li class="element-item libro">Richard Dawkins - The Greatest show on earth</li>
+<li class="element-item libro">Richard Dawkins - The Magic of reality</li>
+<li class="element-item libro">Richard Dawkins - The Selfish Gene</li>
+<li class="element-item libro">Richard Feynman - Seis Piezas fáciles</li>
+<li class="element-item audiolibro">Richard Feynman - Surely you must be joking</li>
+<li class="element-item libro">Robert C Allen - Global Economic History</li>
+<li class="element-item libro">Robert Caro - The Power Broker</li>
+<li class="element-item libro">Robert Greene - The Laws of Human Nature</li>
+<li class="element-item libro">Robert Kiyosaki - Rich Dad Poor Dad</li>
+<li class="element-item libro">Russ Roberts - How Adam Smith Can Change Your Life</li>
+<li class="element-item libro">Sean B. Carroll - The Serengeti Rules</li>
+<li class="element-item libro">Seneca - Letters from a stoic</li>
+<li class="element-item libro">Seneca - On the Shortness of Life</li>
+<li class="element-item libro">Shane Parrish, Rhiannon Beaubien - The Great Mental Models: General Thinking Concepts</li>
+<li class="element-item libro">Shopenhauer - Essays and aphorisms</li>
+<li class="element-item libro">Simon Singh - The Code Book: The Secrets Behind Codebreaking</li>
+<li class="element-item libro">Sir Walter Scott - The Journal of Sir Walter Scott</li>
+<li class="element-item libro">Stephen Hawking - A brief History of Time</li>
+<li class="element-item libro">Stephen Hawking - A briefer history of Time</li>
+<li class="element-item libro">Stephen Hawking - Theory of everything</li>
+<li class="element-item libro">Steven Pinker - Enlightenment now</li>
+<li class="element-item libro">Steven Pinker - The Better angels of our Nature</li>
+<li class="element-item libro">Sun Tzu - The art of war</li>
+<li class="element-item libro">The Dung Beetle - On Purpose: Lessons In Life and Health From The Frog</li>
+<li class="element-item libro">Theodore Roosevelt - Autobiography of Theodore Roosevelt</li>
+<li class="element-item libro">Thomas Paine - Age of Reason</li>
+<li class="element-item libro">Tim Urban - The Elon Musk Blog Series: Wait But Why</li>
+<li class="element-item libro">Trenholme J. Griffin - Charlie Munger: The Complete Investor</li>
+<li class="element-item libro">Vaclav Smil - Energía</li>
+<li class="element-item libro">Viktor Mayer-Schönberger, Kenneth Cukier - Big Data</li>
+<li class="element-item libro">Walter Isaacson - Benjamin Franklin</li>
+<li class="element-item libro">Walter Isaacson - The Innovators</li>
+<li class="element-item libro">Will Durant - The Lessons of History</li>
+<li class="element-item libro">William Braxton Irvine - A Guide to the Good Life: The Ancient Art of Stoic Joy</li>
+<li class="element-item libro">William H. Pike - Why Stocks Go Up and Down</li>
+<li class="element-item libro">William McDonough - Cradke to cradle</li>
+<li class="element-item libro">Winston S. Churchill - Autobiography</li>
+<li class="element-item libro">Winston S. Churchill - My Early Life: The Autobiography</li>
+<li class="element-item libro">Winston S. Churchill - Savrola</li>
+<li class="element-item libro">XKCD - Thing explainer</li>
+<li class="element-item libro">Yuval Noah Harari - 21 Lessons for the 21st Century</li>
+<li class="element-item libro">Yuval Noah Harari - Homo Deus</li>
+<li class="element-item libro">Yuval Noah Harari - Sapiens</li>
+<li class="element-item libro">Douglas Hofstadter - Gödel, Escher, Bach</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/rgceoLnuS_0">Citizen Four</a>: Una revelación, todos sabemos que nos estaban espiando, pero ¿sabemos el alcance real?</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/hcAyzbMvF7k?controls=0">The fog of War</a></li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/J-NSyMTpkYI?controls=0">The Unknown known</a>: Esta es la primera vez que escuché sobre lo que sabemos que sabemos, lo que no sabemos que sabemos, lo que sabemos que no sabemos y lo que no sabemos que no sabemos.</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/I1UDS2kgqY8?controls=0">Jiro dreams of shushi</a>: Una historia emocionante de trabajo duro y enfoque. Tal vez las dificultades de Jiro no son para todos.</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/WXuK6gekU1Y?controls=0">Magnus</a>: Un documental sobre el Gran Maestro de ajedrez Magnus Carlsen.</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/rgceoLnuS_0">Alpha go</a>: Una mirada diferente a la IA.</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/wkoX0pEwSCw?controls=0">Helvetica </a>: Por Gary Hustwit. Los documentales de Gary Hustwit parecen dar forma a mis capacidades de diseño.</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/PaMVy6733Aw">Objectified</a></li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/qHWwxBEfikw?controls=0">Urbanized</a></li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/AZU5xP5lNHk">Rams</a>: Una revelación, todos sabemos que nos estaban espiando, pero ¿sabemos el alcance real?</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/PHXxKZkeFmc">Abstract</a>: Una serie de netflix que sigue a algunos de los diseñadores más relevantes de nuestro tiempo.</li>
+<li class="element-item documental"><a href="https://www.youtube.com/embed/aCv29JKmHNY">Inside Bill's Brain</a>: Una mirada a cómo piensa y aprende Bill Gates.</li>
+<li class="element-item podcast"><a href="https://ark-invest.com/">FYI - For Your Innovation</a>: De parte de Ark invest, historias de todo tipo. </li>
+<li class="element-item podcast"><a href="https://www.vox.com/recode-decode-podcast-kara-swisher">Recode Decode</a>: Entrevistas con Kara Swisher.  </li>
+<li class="element-item podcast"><a href="https://conversationswithtyler.com/">Conversations with Tyler</a>: Entrevistas con Tyler Cowen. </li>
+<li class="element-item podcast"><a href="https://podcasts.apple.com/us/podcast/the-prof-g-show-with-scott-galloway/id1498802610">The Prof G Show</a>: Preguntas con Scott Galloway.</li>
+<li class="element-item podcast"><a href="https://darknetdiaries.com/">Darknet Diaries</a>: Historias de Hackers.</li>
+<li class="element-item podcast"><a href="https://tim.blog/podcast/">The Tim Ferriss Show</a>: Entrevistas con Tim Ferriss.   </li>
+<li class="element-item podcast"><a href="https://www.spreaker.com/show/4108582/episodes/feed">Elon Musk Interviews</a>: Todas las intervenciones mediáticas de Elon Musk. </li>
+<li class="element-item podcast"><a href="https://watchdust.com/">DUST</a>: Historias de ciencia ficción.</li>
+<li class="element-item podcast"><a href="https://www.startalkradio.net/">StarTalk Radio</a>: Consultas cósmicas con Neil deGrasse Tyson. </li>
+<li class="element-item podcast"><a href="https://lexfridman.com/ai/">Artificial Intelligence (AI Podcast)</a>: Entrevistas con Lex Fridman.</li>
+<li class="element-item podcast"><a href="http://feeds.feedburner.com/GeniosDeLaCiencia">Ciencia y genios - Cienciaes.com</a>: Historias dramatizadas sobre científicos reconocidos.   
+<li class="element-item podcast"><a href="https://gimletmedia.com/shows/reply-all">Reply All</a>: Historias sobre todo tipo de temas.</li>
+<li class="element-item podcast"><a href="https://www.theatlantic.com/podcasts/crazygenius/">Crazy/Genius</a>: Historias sobre tecnología.</li>
+<li class="element-item podcast"><a href="http://podcast.diamandis.com/">Exponential Wisdom</a>: Conversaciones entre Peter Diamandis y Dan Sullivan.</li>
+<li class="element-item podcast"><a href="https://podcasts.apple.com/us/podcast/pivot/id1073226719">Pivot</a>: Conversaciones entre Kara Swisher y Scott Galloway.</li>
+<li class="element-item podcast"><a href="https://rss.art19.com/sean-carrolls-mindscape">Sean Carroll's Mindscape</a>: Entrevistas con Sean Carroll.</li>
+<li class="element-item podcast"><a href="https://www.econtalk.org/">EconTalk</a>: Entrevistas con Russ Roberts.</li>
+<li class="element-item podcast"><a href="https://slate.com/podcasts/the-secret-history-of-the-future">The Secret History of the Future</a>: Historias del futuro. </li>
+<li class="element-item podcast"><a href="https://www.notoverthinking.com/">Not Overthinking</a>: Conversaciones entre Ali y Taimur Abdaal.</li>
+<li class="element-item podcast"><a href="https://www.flashforwardpod.com/">Flash Forward</a>: Historias del futuro.</li>
+<li class="element-item podcast"><a href="http://www.npr.org/series/423302056/hidden-brain">Hidden Brain</a>: Una profunda investigación sobre el funcionamiento del cerebro. </li>
+<li class="element-item podcast"><a href="http://www.npr.org/podcasts/510313/how-i-built-this">How I Built This</a>: Entrevistas con Guy Raz a fundadores de empresas sobre cómo comenzaron.</li>
+<li class="element-item podcast"><a href="http://www.32rumbos.com/monograficos.htm">Monográficos Zona cero</a>: Conversaciones profundas sobre un determinado tema.</li>
+<li class="element-item podcast"><a href="http://www.bbc.co.uk/programmes/p02nrss1">More or Less: Behind the Stats</a>: Fact Checking con Tim Harford.</li>
+<li class="element-item podcast"><a href="https://www.oxfordsparks.ox.ac.uk/">Oxford Sparks</a>: Entrevistas con Académicos de Oxford.</li>
+<li class="element-item podcast"><a href="http://www.npr.org/sections/money/">Planet Money</a>: Historias sobre dinero.</li>
+<li class="element-item podcast"><a href="https://www.gimletmedia.com/science-vs/">Science Vs</a>: Revisón cientítica y meticulosa a determinadas afirmaciones. </li>
+<li class="element-item podcast"><a href="http://www.npr.org/programs/ted-radio-hour/">TED Radio Hour</a>: Lo mejor y más reciente de las charlas de TED. </li>
+<li class="element-item podcast"><a href="https://futureskillspodcast.com/">Future skills podcast</a>: Entrevistas y consejos de Mikael Syding y Ludvig Sunstrom. </li>
+<li class="element-item podcast"><a href="https://samharris.org/podcast/">Waking Up Podcast</a>: Entrevistas con Sam Harris.</li>
+
+ </ul>
+    </article>
+</div>
+
+</section>
+
+<script>
+
+// quick search regex
+var qsRegex;
+var buttonFilter;
+
+// init Isotope
+var $grid = $(".grid").isotope({
+  itemSelector: ".element-item",
+  layoutMode: "fitRows",
+  filter: function() {
+    var $this = $(this);
+    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+    return searchResult && buttonResult;
+  }
+});
+
+$("#filters").on( "click", "button", function() {
+  buttonFilter = $( this ).attr("data-filter");
+  $grid.isotope();
+});
+
+// use value of search field to filter
+var $quicksearch = $("#quicksearch").keyup( debounce( function() {
+  qsRegex = new RegExp( $quicksearch.val(), "gi" );
+  $grid.isotope();
+}) );
+
+
+  // change is-checked class on buttons
+$(".button-group").each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( "click", "button", function() {
+    $buttonGroup.find(".is-checked").removeClass("is-checked");
+    $( this ).addClass("is-checked");
+  });
+});
+  
+
+// debounce so filtering doesn"t happen every millisecond
+function debounce( fn, threshold ) {
+  var timeout;
+  threshold = threshold || 100;
+  return function debounced() {
+    clearTimeout( timeout );
+    var args = arguments;
+    var _this = this;
+    function delayed() {
+      fn.apply( _this, args );
+    }
+    timeout = setTimeout( delayed, threshold );
+  };
+}
+
+
+    </script>
+{% include footer.html %}

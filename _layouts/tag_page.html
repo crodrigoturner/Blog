@@ -1,0 +1,19 @@
+{% include head.html %}
+{% include header.html %}
+
+<section>
+<h2>{{page.tag}}</h2>
+
+{% for note in site.tags[page.tag] %}
+<article>
+<details>
+<summary><h3>{{note.title}}</h3></summary>
+<p>{{note.content}}</p>
+</details>
+</article>
+{% endfor %}
+
+
+</section>
+
+{% include footer.html %}
